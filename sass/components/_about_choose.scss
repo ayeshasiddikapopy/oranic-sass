@@ -1,0 +1,52 @@
+#about_choose{
+    .header{
+        .header_item{
+            h3{@include fonts (#676767,20px,500,capitalize);}
+            h2{
+                @include fonts (#282828,35px,700,capitalize);
+                padding:20px 0;
+            }
+            p{@include fonts (#676767,16px,400,capitalize);}
+        }
+    }
+    .content{
+        .content_list{
+            a{
+                @include fonts (#676767,20px,500,capitalize);
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                margin: 10px 0;
+                &:hover{
+                    color: #fff;
+                    background:#F47606;  
+                }
+            }
+             .active{
+                color: #fff;
+                background:#F47606;
+            }
+        }
+        .content_item{
+            h2{@include fonts (#676767,20px,500,capitalize);}
+            h3{
+                @include fonts (#282828,25px,700,capitalize);
+                padding:20px 0 ;
+            }
+            p{
+                @include fonts (#676767,16px,400,capitalize);
+                line-height:30px;
+                padding: 20px 0;
+            }
+            ul{
+                li{
+                    padding: 5px 0;
+                    list-style: disc;
+                    @include fonts (#676767,16px,400,capitalize);
+                }
+            }
+        }
+    }
+}

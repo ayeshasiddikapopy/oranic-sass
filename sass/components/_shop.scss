@@ -1,0 +1,57 @@
+#shop{
+    padding-bottom: 100px;
+    .shop_img{
+        background: url('../images/acces_item1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+            h2{@include fonts (#282828,20px,500,capitalize);}
+            h3{
+                @include fonts (#282828,20px,700,capitalize);
+                padding: 10px 0;
+            }
+            a{
+                @include fonts (#F47606,20px,600,capitalize);
+                text-decoration: underline;
+            }  
+    }
+    .shop_img2{
+        background: url('../images/acces_item2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+            h2{@include fonts (#282828,20px,500,capitalize);}
+            h3{
+                @include fonts (#282828,20px,700,capitalize);
+                padding: 10px 0;
+            }
+            a{
+                @include fonts (#F47606,20px,600,capitalize);
+                text-decoration: underline;
+            }  
+    }
+    .shop_img3{
+        background: url('../images/acces_item3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+            h2{@include fonts (#282828,20px,500,capitalize);}
+            h3{
+                @include fonts (#282828,20px,700,capitalize);
+                padding: 10px 0;
+            }
+            a{
+                @include fonts (#F47606,20px,600,capitalize);
+                text-decoration: underline;
+            }  
+    }
+}

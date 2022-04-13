@@ -1,0 +1,70 @@
+#selling_product{
+    padding: 100px 0;
+    .headers{
+        padding: 50px 0;
+    }
+    .selling_item{
+        .selling_inner{
+            .selling_img{
+                position: relative;
+                .selling_overlay{
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 0;
+                    background: rgba(0, 0, 0, 0.8);
+                    transition:.4s ;
+                    -webkit-transition:.4s ;
+                    -moz-transition:.4s ;
+                    -ms-transition:.4s ;
+                    -o-transition:.4s ;
+                    opacity: 0;
+                    z-index: 1;
+                   
+                    .selling_icon{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 60%;
+                        transform:translate(-50%,-50%);
+                        -webkit-transform:translate(-50%,-50%);
+                        -moz-transform:translate(-50%,-50%);
+                        -ms-transform:translate(-50%,-50%);
+                        -o-transform:translate(-50%,-50%);
+                        i{
+                            margin: 0 5px;
+                            @include icon (#FFAE00,18px,40px,40px,40px,#fff,center,50%);
+                        }
+                    }
+                }
+                p{
+                    @include fonts (#fff,12px,400,capitalize);
+                    background: #FFAE00;
+                    position: absolute;
+                    padding: 10px 15px 10px 20px;
+                    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+                    top: 5%;
+                    right: 0;
+                }
+            }
+            .selling_icon{
+                font-size: 18px;
+                color:#FFAE00;
+            }
+            h2{
+                @include fonts (#282828,20px,600,capitalize);
+            }
+            p{
+                @include fonts (#282828,20px,600,capitalize);
+                del{
+                    @include fonts (#A9A9A9,20px,600,capitalize);
+                    
+                }
+            }
+            &:hover .selling_overlay{
+                opacity: 1;
+                width: 100%;
+            }
+        }  
+    }
+}

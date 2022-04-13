@@ -1,0 +1,199 @@
+#about_us{
+    .about_items{
+        .img_item{
+            padding: 60px;
+        }
+        .content{
+            h2{@include fonts (#676767,20px,500,capitalize);}
+            h3{
+                @include fonts (#282828,35px,700,capitalize);
+                padding:20px 0;
+             }
+            p{
+                @include fonts (#676767,16px,400,capitalize);
+                padding-bottom:20px;
+                line-height: 30px;
+            }
+            .inner_item{
+                .text{
+                    padding-left: 10px;
+                    h4{@include fonts (#282828,20px,500,capitalize);}
+                    span{@include fonts (#676767,16px,400,capitalize);}
+                }
+            }
+        }
+    }
+   .framing_items{
+       padding:80px 0;
+       position: relative;
+        .fram_content{
+           .fram_img{
+                background:#FBFBFB;
+                max-width: 110px;
+                height: 110px;
+                margin: 20px auto;
+                padding-top: 20px;
+                position: relative;
+                transform: rotate(-12.91deg);
+                -webkit-transform: rotate(-12.91deg);
+                -moz-transform: rotate(-12.91deg);
+                -ms-transform: rotate(-12.91deg);
+                -o-transform: rotate(-12.91deg);
+           
+                &:before{
+                   position: absolute;
+                   content: '';
+                   top: 50%;
+                   left: 50%;
+                   border:1px solid  #F47606;
+                   width: 120%;
+                   height: 120%;
+                   line-height: 120%;
+                   transform: translate(-50%,-50%);
+                   -webkit-transform: translate(-50%,-50%);
+                   -moz-transform: translate(-50%,-50%);
+                   -ms-transform: translate(-50%,-50%);
+                   -o-transform: translate(-50%,-50%);
+                }
+           }
+           .fram_text{
+               h2{
+                   @include fonts (#282828,20px,600,capitalize);
+                    padding: 20px 0;
+                }
+               p{@include fonts (#676767,16px,400,capitalize);}
+           }
+        }
+        .fram_content_two{
+            .fram_img{
+                background:#FBFBFB;
+                max-width: 140px;
+                height: 140px;
+                margin: 20px auto;
+                padding-top: 20px;
+                position: relative;
+                transform: rotate(5.43deg);
+                -webkit-transform: rotate(5.43deg);
+                -moz-transform: rotate(5.43deg);
+                -ms-transform: rotate(5.43deg);
+                -o-transform: rotate(5.43deg);
+            
+                &:before{
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    left: 50%;
+                    border:1px solid  #F47606;
+                    width: 120%;
+                    height: 120%;
+                    line-height: 120%;
+                    transform: translate(-50%,-50%);
+                    -webkit-transform: translate(-50%,-50%);
+                    -moz-transform: translate(-50%,-50%);
+                    -ms-transform: translate(-50%,-50%);
+                    -o-transform: translate(-50%,-50%);
+                }
+            }
+            .fram_text{
+                h2{
+                    @include fonts (#282828,20px,600,capitalize);
+                    padding: 20px 0;
+                }
+                p{@include fonts (#676767,16px,400,capitalize);}
+            }
+        }
+        .fram_content_three{    
+        .fram_img{
+             background:#FBFBFB;
+             max-width: 110px;
+             height: 110px;
+             margin: 20px auto;
+             padding-top: 20px;
+             position: relative;
+             transform: rotate(-17.09deg);
+             -webkit-transform: rotate(-17.09deg);
+             -moz-transform: rotate(-17.09deg);
+             -ms-transform: rotate(-17.09deg);
+             -o-transform: rotate(-17.09deg);
+             
+                &:before{
+                position: absolute;
+                content: '';
+                top: 50%;
+                left: 50%;
+                border:1px solid  #F47606;
+                width: 120%;
+                height: 120%;
+                line-height: 120%;
+                transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+             }
+        }
+        .fram_text{
+            h2{
+                @include fonts (#282828,20px,600,capitalize);
+                 padding: 20px 0;
+             }
+            p{@include fonts (#676767,16px,400,capitalize);}
+        }
+        }
+        .fram_content_four{
+            .fram_img{
+                background:#FBFBFB;
+                max-width: 110px;
+                height: 110px;
+                margin: 30px auto;
+                padding-top: 20px;
+                position: relative;
+                transform: rotate(-77.07deg);
+                -webkit-transform: rotate(-77.07deg);
+                -moz-transform: rotate(-77.07deg);
+                -ms-transform: rotate(-77.07deg);
+                -o-transform: rotate(-77.07deg);
+             
+                &:before{
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    left: 50%;
+                    border:1px solid  #F47606;
+                    width: 120%;
+                    height: 120%;
+                    line-height: 120%;
+                    transform: translate(-50%,-50%);
+                    -webkit-transform: translate(-50%,-50%);
+                    -moz-transform: translate(-50%,-50%);
+                    -ms-transform: translate(-50%,-50%);
+                    -o-transform: translate(-50%,-50%);
+                }
+            }
+            .fram_text{
+                h2{
+                    @include fonts (#282828,20px,600,capitalize);
+                     padding: 20px 0;
+                }
+                p{@include fonts (#676767,16px,400,capitalize);}
+            }
+        }
+        svg{
+            position: absolute;
+            z-index: -1;
+        }
+        .right{
+            position: absolute;
+            left: 97.3%;
+            top: 11.8%;
+            font-size: 20px;
+            color: #F47606;
+        }
+        .left{
+            position: absolute;
+            right: 0.1%;
+            top: 37.4%;
+            color: #F47606;
+        }
+    } 
+}

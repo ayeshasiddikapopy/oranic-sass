@@ -1,0 +1,36 @@
+#flash_deals{
+    background: #F8F8F8;
+    padding: 100px 0;
+    .flash_text{
+        padding-top: 50px;
+        h2{@include fonts (#282828,45px,700,capitalize);}
+        h3{@include fonts (#282828,30px,600,capitalize);
+        padding-top:20px;
+        }
+        p{
+            @include fonts (#676767,16px,400,capitalize);
+            padding:20px 0;
+        }
+        a{
+            @include fonts (#fff,20px,600,capitalize);
+            padding: 10px 30px;
+            background:#F47606;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        #flash_dates{
+            .counter{
+                @include fonts (#282828,35px,700,capitalize);
+                padding: 40px 0;
+                text-align: center;
+                span{
+                    display: block;
+                    @include fonts (#282828,28px,500,capitalize);
+                } 
+            }
+        }
+    }
+}

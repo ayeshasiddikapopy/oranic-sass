@@ -1,0 +1,31 @@
+#acces_feedback{
+    .feed_item{
+        padding: 40px;
+        .feed_icon{
+            i{
+                color: #FFC24B;
+                font-size: 18px;
+            }
+        }
+        p{
+            @include fonts (#6C6C6C,16px,400,capitalize);
+            padding: 20px 0;
+        }
+        .feed_inner{
+            position: relative;
+            .feed_text{
+                margin-left: 10px;
+                h3{
+                    @include fonts (#282828,20px,600,capitalize);
+                }
+                span{
+                    @include fonts (#6C6C6C,16px,400,capitalize);
+                }
+            }
+            svg{
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+}

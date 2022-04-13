@@ -1,0 +1,52 @@
+#testmonial_item_home{
+    padding: 100px 0;
+    background: #F8F8F8;
+    position: relative;
+    .test_img{
+        width: 100%;
+        height: 300px;
+    }
+    .test_inner_item{
+        h2{
+            @include fonts (#282828,35px,700,capitalize);
+            padding-bottom: 20px;
+        }
+        .test_icon{
+            padding:20px 0;
+            i{
+                font-size: 18px;
+                color: #F47606;           
+            }
+        }
+        p{
+            @include fonts (#6C6C6C,16px,400,capitalize);
+            padding-bottom: 20px;
+        }
+       .test_content{
+           .test_content_text{
+               margin-left: 20px;
+               h2{
+                @include fonts (#282828,20px,600,capitalize);
+                padding: 0;
+               }
+               span{
+                @include fonts (#676767,16px,400,capitalize);
+               }
+           }
+       } 
+    }
+    .prev,.next{
+        position: absolute;
+        bottom: 10%;
+        left: 16.2%;
+        cursor: pointer;
+        z-index: 4;
+    }
+    .next{
+        left: 18%;
+        z-index: 2;
+        &:hover{
+            color: #F47606;
+        }
+    }
+}

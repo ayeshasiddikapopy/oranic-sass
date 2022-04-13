@@ -1,0 +1,131 @@
+#categori{
+    padding-bottom: 80px;
+    .cat_side{
+        .categories_item{
+            background:#FAFAFA ;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+           
+            ul{
+                li{
+                    padding: 5px 0;
+                    a{
+                        @include fonts (#282828,18px,600,capitalize);
+                        &:hover{
+                            color: #F47606;
+                            transition: .2s;
+                            -webkit-transition: .2s;
+                            -moz-transition: .2s;
+                            -ms-transition: .2s;
+                            -o-transition: .2s;
+                        }
+                    }
+                }
+            }
+        }
+        .cat_bg{
+            background: url('../images/tred_bg1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 20px;
+            height: 450px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            h2{@include fonts (#282828,25px,700,capitalize);}
+            p{@include fonts (#676767,16px,400,capitalize);
+                padding:10px 0;
+            }
+            a{@include fonts (#F47606,20px,600,capitalize);
+            text-decoration: underline;
+            }
+        }
+        .cat_bg_two{
+            background: url('../images/tred_bg2.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:450px;
+            width: 100%;
+            padding: 40px;
+            margin-top: 20px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            h2{@include fonts (#282828,25px,700,capitalize);}
+            p{@include fonts (#676767,16px,400,capitalize);
+                padding:10px 0;
+            }
+            a{@include fonts (#F47606,20px,600,capitalize);
+            text-decoration: underline;
+            }
+        }
+    }
+    .item_side{
+        .cat_items{
+            .cat_img{
+                 position: relative;
+                .cat_img_icon{
+                    position: absolute;
+                    left: 30%;
+                    bottom: 5%;
+                    i{
+                        font-size: 18px;
+                        color: #F47606;
+                    }
+                }
+                .img_overlay{
+                    position: absolute;
+                    background:rgba(40, 40, 40, .8);
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+    
+                    .over_icon{
+                        position: absolute;
+                        top: 50%;
+                        left: 46%;
+                        transform: translate(-50%,-50%);
+                        -webkit-transform: translate(-50%,-50%);
+                        -moz-transform: translate(-50%,-50%);
+                        -ms-transform: translate(-50%,-50%);
+                        -o-transform: translate(-50%,-50%);
+                        a{
+                            i{
+                                margin: 0 5px;
+                                @include icon (#F47606,18px,40px,40px,40px,#fff,center,50%);
+                            }
+                        }
+                    }
+                }
+            }
+            h2{
+                @include fonts (#282828,20px,600,capitalize);
+                padding: 10px 0;
+            }
+            p{
+                @include fonts (#969696,20px,600,capitalize);
+            }
+            &:hover .img_overlay{
+                opacity: 1;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+    }
+        } 
+    }
+}

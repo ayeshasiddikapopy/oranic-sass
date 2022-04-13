@@ -1,0 +1,83 @@
+#testimonial{
+    padding: 50px 0;
+    .test_header_text{
+        a{
+            @include fonts (#676767,16px,400,capitalize);
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+            &:hover{
+                color: #F47606;
+            }     
+        }
+        a{
+            i{
+                color: #676767;
+                font-size: 16px;
+                padding-left: 10px;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                &:hover{
+                    color: #F47606;
+                }
+            }
+        }
+    }
+    .test_item{
+        padding: 40px ;
+        border: 1px solid #C9C9C9;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        p{
+            @include fonts (#676767,16px,400,capitalize);
+            padding: 20px 0 40px 0;
+            word-spacing: 2px;
+        }
+        .test_inner{
+            .test_text{
+                padding-left: 10px;
+                h3{
+                    @include fonts (#282828,20px,600,capitalize);
+                }
+                span{
+                    @include fonts (#676767,16px,400,capitalize);
+                }
+            }
+        }
+    }
+    .test_inner_item{
+        .test_items{
+            padding: 20px ;
+            border: 1px solid #C9C9C9;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        p{
+            @include fonts (#676767,16px,400,capitalize);
+            padding: 20px 0;
+        }
+        .test_inner{
+            .test_text{
+                padding-left: 10px;
+                h3{
+                    @include fonts (#282828,20px,600,capitalize);
+                }
+                span{
+                    @include fonts (#676767,16px,400,capitalize);
+                }
+            }
+        }
+    
+        }
+    }
+}

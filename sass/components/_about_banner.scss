@@ -1,0 +1,12 @@
+#about_banner{
+    padding:120px 0 80px 0;
+    .ban_content{
+        background: url('../images/about_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        padding: 100px 0;
+    }
+}

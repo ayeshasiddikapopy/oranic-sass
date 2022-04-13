@@ -1,0 +1,97 @@
+#rated_product{
+    padding: 50px 0;
+    .rated_header{
+        padding-bottom: 50px;
+        .rated_text{
+            a{
+                @include fonts(#676767,16px,400,capitalize);
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                &:hover{
+                    color: #F47606;
+                }
+            }
+            a{
+                i{
+                color: #676767;
+                font-size: 16px;
+                padding-left: 10px;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                &:hover{
+                    color: #F47606;
+                }
+                }
+            }
+        }
+    }
+    .rated_slick{
+            .slick-slide{
+                margin: 0 35px;
+            }
+        }
+    .feature_item{ 
+        .feature_images{
+        position: relative;
+        .feat_inner_icon{
+           position: absolute;
+           width: 62%;
+           bottom: 0;
+           left: 50%;
+           transform:translate(-50%,-50%);
+           -webkit-transform:translate(-50%,-50%);
+           -moz-transform:translate(-50%,-50%);
+           -ms-transform:translate(-50%,-50%);
+           -o-transform:translate(-50%,-50%);
+           opacity: 0;
+           
+                i{
+                @include icon (#676767,18px,40px,40px,40px,#fff,center,50%);
+                margin: 0 5px;
+                transition:.2s ;
+                -webkit-transition:.2s ;
+                -moz-transition:.2s ;
+                -ms-transition:.2s ;
+                -o-transition:.2s ;
+
+                &:hover{
+                    background: #F47606;
+                    color: #fff;
+                }
+            }
+        }
+    }
+     &:hover .feat_inner_icon{
+        opacity: 1;
+        bottom: 5%;
+        transition:.2s ;
+        -webkit-transition:.2s ;
+        -moz-transition:.2s ;
+        -ms-transition:.2s ;
+        -o-transition:.2s ;
+    }
+   .feature_text{
+       padding: 20px 0;
+     .feat_icon{
+         i{
+             color: #F47606;               
+             font-size: 18px;
+         }
+     }  
+     h3{
+        @include fonts (#282828,20px,400,capitalize);
+        padding:10px 0;
+     }
+     p{
+        @include fonts (#282828,20px,600,capitalize);
+     }
+   } 
+
+    }
+}

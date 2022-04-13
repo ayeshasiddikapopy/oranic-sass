@@ -1,0 +1,21 @@
+#product{
+    .product_inner{
+        .product_item{
+        .product_icon{
+            padding: 20px 0;
+                i{
+                    font-size: 18px;
+                    color: #FFAE00;
+                }
+             }
+            h3{
+                @include fonts (#282828,16px,500,capitalize);
+            }
+            p{
+                @include fonts (#282828,20px,600,capitalize);
+                padding: 10px 0 20px 0 ;
+            }
+        }   
+    }
+    
+}

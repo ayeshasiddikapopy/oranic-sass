@@ -1,0 +1,93 @@
+#cart{
+    padding-bottom: 100px;
+    .headers{
+        padding-bottom:50px ;
+    }
+    .cart_item{
+        .cart_text{
+           background: #F7F7F7;
+           padding: 40px;
+            #cart_countdown{
+                padding: 50px;
+                .countown{
+                    @include fonts (#F47606,20px,600,capitalize);
+                    padding: 10px ;
+                    text-align: center;
+                    margin: 0 10px;
+                    background:#fff;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    width: 80px;
+                    span{
+                        display: block;
+                        @include fonts (#F47606,20px,600,capitalize);
+                    } 
+                }
+            }
+            .cart_icon{
+                font-size:18px;
+                color: #F47606; 
+            }
+            h2{
+                @include fonts (#282828,25px,600,capitalize);
+                padding:20px 0;
+            }
+            p{
+                @include fonts (#282828,20px,600,capitalize);
+                padding:20px 0;
+            }
+            a{
+                @include fonts (#FFFFFF,20px,600,capitalize);
+                padding: 10px 50px;
+                background: #F47606;
+            }
+        }
+    }
+    .cart_item_two{
+        .cart_text{
+            background: #F3F3F3;
+            padding: 40px;
+             #cart_countdown_two{
+                 padding: 50px;
+                 .countown{
+                     @include fonts (#F47606,20px,600,capitalize);
+                     padding: 10px ;
+                     text-align: center;
+                     margin: 0 10px;
+                     background:#fff;
+                     border-radius: 10px;
+                     -webkit-border-radius: 10px;
+                     -moz-border-radius: 10px;
+                     -ms-border-radius: 10px;
+                     -o-border-radius: 10px;
+                     width: 80px;
+                     span{
+                         display: block;
+                         @include fonts (#F47606,20px,600,capitalize);
+                     } 
+                 }
+             }
+             .cart_icon{
+                 font-size:18px;
+                 color: #F47606; 
+             }
+             h2{
+                 @include fonts (#282828,25px,600,capitalize);
+                 padding:20px 0;
+             }
+             p{
+                 @include fonts (#282828,20px,600,capitalize);
+                 padding:20px 0;
+             }
+             a{
+                 @include fonts (#FFFFFF,20px,600,capitalize);
+                 padding: 10px 50px;
+                 background: #F47606;
+             }
+ 
+         }
+    }
+}

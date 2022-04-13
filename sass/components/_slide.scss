@@ -1,0 +1,7 @@
+#slide{
+    .slide_item{
+        p{
+            @include fonts (#282828,20px,600,capitalize)
+        }
+    }
+}

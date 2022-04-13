@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+::after,::before{
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+@mixin fonts ($cl,$fs,$fw,$tt){
+    color: $cl;
+    font-size: $fs;
+    font-weight: $fw;
+    text-transform: $tt;
+}
+@mixin icon ($cl,$fs,$w,$h,$ln,$bg,$ta,$br){
+    color: $cl;
+    font-size: $fs;
+    width: $w;
+    height: $h;
+    line-height: $ln;
+    background: $bg;
+    text-align: $ta;
+    border-radius: $br;
+    -webkit-border-radius: $br;
+    -moz-border-radius: $br;
+    -ms-border-radius: $br;
+    -o-border-radius: $br;
+}
+.headers{
+    h2{
+        @include fonts (#282828,35px,700,capitalize);
+    }
+}
+body{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+

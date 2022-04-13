@@ -1,0 +1,68 @@
+/*xtra Small devices*/
+@media (min-width: 320px) and (max-width: 576.98px){
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    .main_menu .header{
+        display: none;
+    }
+    .searc{
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+    #about_banner {
+        padding: 60px 0;
+      }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #shop_content .prev {
+        position: absolute;
+        right: 4.3%;
+        }
+        #shop_content .shop_categori .shop_lists .tag .tag_item a{
+            font-size: 12px;
+        }
+        #shop_content .shop_categori .shop_img .shopi_content .inner_img .icon {
+            position: absolute;
+            width: 90%;
+            margin: 0 !important;
+        }
+        #shop_content .shop_categori .shop_img .shopi_content .inner_img .icon a i{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 18px;
+            left: 50%;
+        }
+        #shop_content .shop_categori .shop_lists .best_seller .seller_item .seller_content h3{
+            font-size: 18px;
+        }
+        #shop_content .shop_categori .shop_lists .best_seller .seller_item .seller_content .icon i{
+            font-size: 12px;
+        }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    #shop_content .prev {
+    position: absolute;
+    right: 4.3%;
+    }
+    #shop_content .shop_categori .shop_lists .tag .tag_item a{
+        font-size: 12px;
+    }
+    #shop_content .shop_categori .shop_img .shopi_content .inner_img .icon {
+        position: absolute;
+        width: 85%;
+    }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px){
+}

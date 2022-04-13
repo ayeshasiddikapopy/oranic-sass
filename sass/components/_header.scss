@@ -1,0 +1,96 @@
+.main_menu{
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+.header{
+    h2{
+        @include fonts (#fff,16px,400,capitalize);
+    }
+      background: #477018;
+      padding: 15px 0;
+}
+#navigation{
+    ul{
+        li{
+            a{
+                @include fonts (#282828,16px,600,capitalize);
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                &:hover{
+                color: #F47606;
+                border-bottom: 1px solid #F47606;
+                
+                }
+            }
+            padding: 0 15px;
+        }
+    }
+    .searc{
+        i{
+            padding: 0 10px;
+            color: #282828; 
+            font-size: 20px; 
+        }
+        .searces{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '3';
+                bottom: 10%;
+                left: 50%;
+                width: 20px;
+                height: 20px;
+                background: #F47606;
+                color: #fff;
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        } 
+    }
+    
+    }
+}
+.menu_inner{
+    animation: nav_item 2s;
+    -webkit-animation: nav_item 1s;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+@keyframes nav_item{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+} 
+.up_down i{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #477018;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 99;
+}
+

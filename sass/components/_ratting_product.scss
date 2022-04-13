@@ -1,0 +1,60 @@
+#ratting_product{
+    .headers{
+        padding: 50px 0;
+    }
+    .ratting_item{
+        .ratting_inner{
+            .ratting_img{
+                position: relative;
+                .ratting_overlay{
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 0;
+                    background: rgba(0, 0, 0, 0.8);
+                    transition:.4s ;
+                    -webkit-transition:.4s ;
+                    -moz-transition:.4s ;
+                    -ms-transition:.4s ;
+                    -o-transition:.4s ;
+                    opacity: 0;
+                   
+                    .ratting_icon{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 60%;
+                        transform:translate(-50%,-50%);
+                        -webkit-transform:translate(-50%,-50%);
+                        -moz-transform:translate(-50%,-50%);
+                        -ms-transform:translate(-50%,-50%);
+                        -o-transform:translate(-50%,-50%);
+                        i{
+                            margin: 0 5px;
+                            @include icon (#FFAE00,18px,40px,40px,40px,#fff,center,50%);
+                        }
+                    }
+                }
+            }
+            .ratting_icon{
+                font-size: 18px;
+                color:#FFAE00;
+            }
+            h2{
+                @include fonts (#282828,20px,600,capitalize);
+            }
+            p{
+                @include fonts (#282828,20px,600,capitalize);
+                del{
+                    @include fonts (#A9A9A9,20px,600,capitalize);
+                    
+                }
+            }
+            &:hover .ratting_overlay{
+                opacity: 1;
+                width: 100%;
+            }
+        }
+        
+    }
+}

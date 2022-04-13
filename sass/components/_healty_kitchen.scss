@@ -1,0 +1,44 @@
+#healthy_kithchen{
+    .healthy_img{
+        background: url('../images/fresh2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        h2{
+            @include fonts (#F47606,20px,600,capitalize);
+        }
+        h3{
+            @include fonts (#282828,30px,600,capitalize);
+            padding:10px 0;
+            line-height: 50px;
+        }
+        a{
+            @include fonts (#F47606,20px,600,capitalize);
+            text-decoration: underline;
+        }
+    }
+    .healthy_img_two{
+        background: url('../images/fresh1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        h2{
+            @include fonts (#F47606,20px,600,capitalize);
+        }
+        h3{
+            @include fonts (#282828,30px,600,capitalize);
+            padding:10px 0;
+            line-height: 50px;
+        }
+        a{
+            @include fonts (#F47606,20px,600,capitalize);
+            text-decoration: underline;
+        }
+    }
+}

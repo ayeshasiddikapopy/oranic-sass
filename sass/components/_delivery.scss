@@ -1,0 +1,19 @@
+#delivery{
+    padding: 100px 0;
+    .delivary_item{
+        border: 1px solid #C9C9C9;
+        padding: 50px 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        h2{
+            @include fonts (#282828,25px,600,capitalize);
+            padding:20px 0 10px 0;
+        }
+        p{
+            @include fonts (#676767,16px,400,capitalize);
+        }
+    }
+}

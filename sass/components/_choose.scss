@@ -1,0 +1,12 @@
+#choose{
+    .choose_items{
+        padding: 20px;
+        h2{
+            @include fonts (#282828,20px,600,capitalize);
+            padding:20px 0;
+        }
+        p{
+            @include fonts (#676767,16px,400,capitalize)
+        }
+    }
+}

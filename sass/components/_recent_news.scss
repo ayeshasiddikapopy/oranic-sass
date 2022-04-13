@@ -1,0 +1,36 @@
+#recent_news{
+    padding: 100px 0;
+    .recent_item{
+        .recent_img{
+            position: relative;
+            .recent_text{
+                h2{
+                    @include fonts (#FFFFFF,16px,400,capitalize);
+                    background: #F47606;
+                    position: absolute;
+                    padding: 10px 20px;
+                    bottom: 10%;
+                    left: 5%;
+                }
+            }
+        }
+        .recent_content{
+            background: #FAFAFA;
+            padding: 20px;
+            h3{
+                @include fonts (#363636,20px,600,capitalize);
+                word-spacing: 4px;
+                line-height: 30px;
+            }
+            p{
+                @include fonts (#6C6C6C,16px,400,capitalize);
+                padding:20px 0;
+                word-spacing:2px;
+            }
+            a{@include fonts (#F47606,16px,600,capitalize);
+            i{
+                color: #F47606;
+            }}
+        }
+    }
+}

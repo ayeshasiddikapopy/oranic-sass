@@ -1,0 +1,84 @@
+#deal{
+    .deal_header{
+        .headers{
+            margin-top: 20px;
+            display: inline-block;
+        }
+        #deal_date{
+            .countown{
+                @include fonts (#fff,20px,600,capitalize);
+                padding: 10px ;
+                text-align: center;
+                margin: 0 10px;
+                background: #F47606;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                span{
+                    display: block;
+                    @include fonts (#ffff,20px,600,capitalize);
+                } 
+            }
+            .hours{
+                @include fonts (#F47606,20px,600,capitalize);
+                padding: 10px ;
+                text-align: center;
+                margin: 0 10px;
+                background: #fff;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                span{
+                    display: block;
+                    @include fonts (#F47606,20px,600,capitalize);
+                } 
+            } 
+        }
+    }
+    .deal_item{
+        background: url('../images/categorybg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 50px 0 50px 50px;
+        margin: 50px 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .deal-inner{
+            h2{
+                @include fonts (#282828,40px,700,capitalize)
+            }
+            p{
+                @include fonts (#282828,20px,400,capitalize);
+                padding: 20px 0;
+            }
+            a{
+                @include fonts(#fff,20px,600,capitalize);
+                background: #477018;
+                padding: 15px 50px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                 &:hover{
+                    background: #F47606;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+#discover{
+    padding: 100px 0;
+    ul{
+        li{
+            .nav-link{
+                @include fonts (#282828,20px,500,capitalize);
+                &:hover{
+                    color: #FFAE00;
+                    text-decoration: underline;
+                }
+            } 
+        }
+    }
+    .tab-content{
+        .disco_inner{
+            .disco_item{      
+                .disco_text{
+                    background: #FAFAFA;
+                    padding: 60px 20px 0 0;
+                    h2{
+                        @include fonts (#282828,16px,600,capitalize);
+                    }
+                    .disco_icon{
+                        i{
+                            color: #FFAE00;
+                            font-size: 18px;
+                            padding: 10px 0;
+                        }
+                    }
+                    p{
+                        @include fonts (#282828,20px,600,capitalize);
+                        del{
+                            color: #A9A9A9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

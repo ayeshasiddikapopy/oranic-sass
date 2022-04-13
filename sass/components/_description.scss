@@ -1,0 +1,54 @@
+#description{
+    .describe_item{
+        padding: 20px 0;
+        border-bottom: 3px solid #A2A2A2;
+        
+        ul{
+            li{
+               a{
+            position: relative;
+            @include fonts (#676767,20px,500,capitalize);
+            &:before{
+                position: absolute;
+                content: '';
+                bottom: -42.4%;
+                left: 0;
+                width: 0;
+                height: 2px;
+                background: #F47606;
+                opacity: 0;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+            }
+            &:hover::before{
+                opacity: 1;
+                width: 100%;
+            }
+            &:hover{
+                color: #F47606;
+            }
+        } 
+            }
+        }
+        
+    }
+    .tab-content{
+        .desc_content{
+            padding: 50px;
+            p{
+                padding:10px 0;
+                @include fonts (#676767,16px,400,capitalize);
+            }
+            ul{
+                padding: 20px 50px 20px ;
+                li{
+                    list-style: disc;
+                    @include fonts (#676767,16px,400,capitalize);
+                }
+            }
+        }
+    }
+}
