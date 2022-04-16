@@ -5,7 +5,7 @@
         });
 
         // //mixit prodoct items
-        var mixer = mixitup('#top_product_item');
+        var mixer = mixitup('.top_product_item');
 
         //testimonial slick home    
         $('.test_slicks').slick({

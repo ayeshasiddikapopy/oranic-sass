@@ -4,7 +4,7 @@
     .fot_item{
        ul{
            li{
-            padding: 10px 0;
+            padding: 5px 0;
                a{
                 @include fonts (#6C6C6C,16px,400,capitalize);
                }
@@ -18,7 +18,7 @@
         }
         ul{
             li{
-                padding: 20px 0;
+                padding:5px 0;
                 a{
                     @include fonts (#6C6C6C,16px,400,capitalize);
                 }
